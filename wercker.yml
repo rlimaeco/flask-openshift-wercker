@@ -12,9 +12,3 @@ build:
         name: Run Tests
         code: |
           py.test tests.py
-
-  # after-steps:
-  #   - slack-notifier:
-  #       url: $SLACK_URL
-  #       channel: wercker
-  #       username: wercker
